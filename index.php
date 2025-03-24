@@ -11,4 +11,65 @@ header('Content-type: text/html; charset=utf-8');
  * window['setServiceListdUrl'] = "http://192.168.50.50:82/server";
  * start();
  */
-exit('{"login":[999,997,990],"serverlist":[{"name":"无天测试","serverlist":[{"originalSrvid":1,"srvid":1,"srvaddr":"121.37.155.68","id":2,"serverAlias":"s1","serverName":"国内1区","opentime":"2022-03-23 23:59:51","srvport":35317,"type":2,"pf":"yfbx"},{"originalSrvid":1,"srvid":1,"srvaddr":"103.213.4.14","id":3,"serverAlias":"s1","serverName":"奶昔1区","opentime":"2022-03-23 23:59:51","srvport":10317,"type":2,"pf":"yfbx"}]}]}');
+exit('{
+  "login": [
+    999,
+    997,
+    990
+  ],
+  "serverlist": [
+    {
+      "name": "1-100区",
+      "serverlist": [
+        {
+          "id": 1,
+          "serverName": "内测1区",
+          "srvaddr": "100.88.157.105",
+          "srvport": 10317,
+          "srvid": 1,
+          "type": 2,
+          "opentime": "2022-03-23 23:59:51",
+          "pf": "yfbx",
+          "serverAlias": "s1",
+          "originalSrvid": 1
+        },
+        {
+          "id": 2,
+          "serverName": "国内1区",
+          "srvaddr": "121.37.155.68",
+          "srvport": 35317,
+          "srvid": 1,
+          "type": "3",
+          "opentime": "2022-03-23 23:59:51",
+          "pf": "yfbx",
+          "serverAlias": "s1",
+          "originalSrvid": 1
+        },
+        {
+          "id": 3,
+          "serverName": "奶昔1区",
+          "srvaddr": "103.213.4.14",
+          "srvport": 10317,
+          "srvid": 1,
+          "type": 2,
+          "opentime": "2022-03-23 23:59:51",
+          "pf": "yfbx",
+          "serverAlias": "s1",
+          "originalSrvid": 1
+        },
+        {
+          "id": 5,
+          "serverName": "阿里云1区",
+          "srvaddr": "121.41.123.129",
+          "srvport": 35317,
+          "srvid": 1,
+          "type": 2,
+          "opentime": "2022-03-23 23:59:51",
+          "pf": "yfbx",
+          "serverAlias": "s1",
+          "originalSrvid": 1
+        }
+      ]
+    }
+  ]
+}');
